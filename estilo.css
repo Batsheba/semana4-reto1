@@ -2,17 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+   
 }
-html,body{
-    height: 100%;
+body{
+    width: 100%;
+    height: 100vh;
     background:linear-gradient(rgb(122, 46, 103), rgb( 70, 27, 7));
 }
+
 .contenedor{
     padding: 50px;
-    min-width:700px;
     max-width:1200px;
-    min-height:700px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5,minmax(150px,1fr));
