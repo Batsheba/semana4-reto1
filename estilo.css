@@ -18,10 +18,11 @@ html,body{
     grid-template-columns: repeat(5,minmax(150px,1fr));
     grid-template-rows: repeat(3,minmax(150px,1fr));
     gap: 20px;
-   
+    
 }
 .caja{
     border-radius: 20px;
+   
 }
 .caja:nth-of-type(1){
     background: #349989;
